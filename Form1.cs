@@ -57,8 +57,7 @@ namespace ListViewLiveSearch
                     lv_data.Items.Add(new ListViewItem(new[] { s.Name, s.Destination }));
         }
 
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void tb_search_TextChanged(object sender, EventArgs e)
         {
             SearchData(tb_search.Text);
         }

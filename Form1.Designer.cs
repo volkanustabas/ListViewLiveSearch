@@ -40,7 +40,7 @@ namespace ListViewLiveSearch
             this.tb_search.Name = "tb_search";
             this.tb_search.Size = new System.Drawing.Size(151, 20);
             this.tb_search.TabIndex = 1;
-            this.tb_search.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.tb_search.TextChanged += new System.EventHandler(this.tb_search_TextChanged);
             // 
             // label1
             // 
